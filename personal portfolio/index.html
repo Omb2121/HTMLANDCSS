@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Personal Portfolio</h1>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a web developer with a passion for creating beautiful and user freindly websites and web apllications,and i am a quick learner and a team player.</p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>AI POWERD STOCK ANALYZER</li>
+                <li>AI POWERED RESUME BUILDER</li>
+                <li> CLONE OF LOVABALE.AI</li>
+                <li>AI POWERED CHATBOT</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="Email">bhosaleom439@gmail.com</a></p>
+            <p>Phone: <a href="telephone">9975936160</a></p>
+            <p>LinkedIn: <a href="www.linkedin.com/in/om-bhosale-622b97321">Om bhosale</a></p>
+            <p>GitHub: <a href="https://github.com/OM233">OM233</a></p>
+        </section>
+        <footer>
+            <p>Copyright &copy; 2025 Om bhosale</p>
+        </footer>
+        <script src ="script.js"></script>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+            AOS.init();
+
+        </script>
+        <script>
+            const navlinks = document.getElementById('navLinks')
+            const toggleButton = document.getElementById('toggleButton')
+            toggleButton.addEventListener('click',()=>{
+                navlinks.classList.toggle('active')
+            })
+
+
+
+        </script>
+
+
+
+    </body>
+</html>
